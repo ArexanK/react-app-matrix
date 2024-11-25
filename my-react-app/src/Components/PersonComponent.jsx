@@ -2,8 +2,8 @@ import React from "react";
 
 //CLASS COMPONENT
 class Person extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       name: "nora",
       age: 30,
@@ -35,5 +35,25 @@ class Person extends React.Component {
 //     </div>
 //   );
 // }
+
+
+//PROPS
+
+// function Person(){
+//     <Person1 lastname ={'john'}>
+//         <h1>Hello i am first child</h1>
+//         <h2>Hello i am second child</h2>
+//     </Person1>
+// }
+
+
+// function Person1(props){
+//     return(
+//     <h1> Hi i am a function componentn, my name is {props.lastname} {props.child}</h1>
+   
+//     )
+// }
+
+
 
 export default Person;
